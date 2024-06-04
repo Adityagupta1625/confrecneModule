@@ -15,5 +15,5 @@ router.use("/awards", require("./awards")); // Include awards routes
 router.use("/location", require("./location"));
 // Add more routes as needed
 router.use("/sponsor", require("./sponsor"));
-
+router.use("/upload", require("./upload"));
 module.exports = router;
